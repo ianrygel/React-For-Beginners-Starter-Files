@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "autoprefixer-stylus": "0.14.0",
+    "chalk": "2.4.1",
     "firebase": "^7.6.0",
+    "prettier": "^1.19.1",
     "prop-types": "^15.6.0",
     "re-base": "4.0.0",
     "react": "^16.6.3",
@@ -27,6 +29,9 @@
     "styles": "stylus -u autoprefixer-stylus ./src/css/style.styl -o ./src/css/style.css",
     "now-build": "npm run build && mv build dist",
     "styles:watch": "npm run styles -- -w"
+  },
+  "resolutions": {
+    "ansi-styles": "^3.2.0"
   },
   "browserslist": [
     ">0.2%",
